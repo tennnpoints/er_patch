@@ -1,0 +1,45 @@
+.char::before{
+    content: '';
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    width: 61px;
+    height: 80px;
+}
+
+.weapon::before{
+    content: '';
+    display: inline-block;
+    background-size: contain;
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+}
+
+.buff::before{
+    content:'▲';
+    color :red;
+}
+
+.nerf::before{
+    content:'▼';
+    color :dodgerblue;
+}
+
+.ar::before{
+    background-image: url(./weapon/ar.png);
+}
+header{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:white;
+    background-color: #222222;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    color:white;
+    background-color: black;
+}
+.patch{
+    text-align: left;
+    padding: 5%;
+}
