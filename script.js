@@ -3,6 +3,7 @@ $(function () {
     let taglist = [];
     let charlist = [];
     let weaponlist = ['ar','arcana','axe','bat','bow','camera','crossbow','dagger','dualswords','glove','guitar','hammer','nunchaku','pistol','rapier','shuriken','spear','sr','throw','tonfa','twohandedsword','vf','whip'];
+    let augmentslist = ['adrenaline','ampdrone','bitterretribution','diamondshard','frailty','frenzy','healdrone','healingfactor','heavykneepads','ironclad','oblivion','redsprite','runitback','sentinel','vamp']
     $.ajax({
         // 読み込みの設定
         type: "GET",
@@ -27,6 +28,10 @@ $(function () {
                 console.log('<style>.'+name+'::before{background-image: url(./weapon/'+name+'.png);}</style>')
                 $('.'+name+'').append('<style>.'+name+'::before{background-image: url(./weapon/'+name+'.png);}</style>');  
             })
+            augmentslist.forEach(function ( name ) {
+                console.log('<style>.'+name+'::before{background-image: url(./weapon/'+name+'.png);}</style>')
+                $('.'+name+'').append('<style>.'+name+'::before{background-image: url(./augments/'+name+'.png);}</style>');  
+            })
             
         },
         function () {
@@ -41,9 +46,9 @@ $(function () {
         $('.desc').hide();
         if ( list.length != 0 ){
             list.forEach(function( name ) {
-                console.log('detect')
                 taglist[name]["tags"].forEach(function (tags) {
                     $('.'+tags).show();
+                    console.log(tags);
                 });
             });
         }else{
