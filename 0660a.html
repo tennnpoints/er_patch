@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- パッチタイトル -->
+    <title>パッチノート0.66.0aホットフィックス</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400&display=swap" rel="stylesheet">
+</head>
+ 
+<body>
+        <!-- 固定部分 -->
+        <header class="">
+            <div id="tbutton" class="sticky-top">
+                <button id="showtoggle">キャラクター絞り込み</button>
+            </div>
+            <div id="selecter" class="row  container-fluid sticky-top">
+            </div>
+        </header>
+        <!-- テンプレート -->
+            <div class="patch">
+                <div class="desc">
+                    <h1>0.66.0aホットフィックス</h1>
+                    2022年 9月2日 16時30分から0.66.0aホットフィックスが適用されます。<br>
+                    <b>
+                        このホットフィックスはクライアントダウンロードで適用されるアップデートです。<br>
+                        クライアントを終了後、アップデートしてください。<br>
+                    </b>
+                    (サーバー配布は適用されるまで最大10分までかかることがあります。)<br>
+                    <b>※ ツールチップや練習モードでは一部適用事項が反映されないことがあります。</b><br>
+                    <br>
+                </div>
+                <div class="desc">
+                    <h2>修正項目</h2>
+                    <h3>キャラクター調整</h3>
+                    <div class="desc bernice char">
+                        バニス<br>
+                        <div class="nerf">
+                            攻撃力 31 → <b>28</b>
+                        </div><br>
+                    </div>
+                    <div class="desc silvia char">
+                        シルヴィア<br>
+                        ・スピードガン(人間状態Q)<br>
+                        <div class="buff">
+                            クールダウン 7.5/6.75/6/5.25/4.5秒 → <b>6/5.5/5/4.5/4秒</b>
+                        </div><br>
+                    </div>
+                    <div class="desc markus char">
+                        マーカス<br>
+                        ・戦士の突撃(E)<br>
+                        <div class="burf">
+                            クールダウン10/9.5/9/8.5/8秒 → <b>11/10/9/8/7秒</b>
+                        </div><br>
+                    </div>
+                    <div class="desc aiden char">
+                        エイデン<br>
+                        <div class="nerf">
+                            武器熟練度レベル比例基本攻撃増幅 4.5% → <b>4.3%</b>
+                        </div><br>
+                    </div>
+                    <div class="desc yuki char">
+                        雪<br>
+                        <div class="buff">
+                            レベル比例攻撃力 2.9 → <b>3.1</b>
+                        </div><br>
+                    </div>
+                    <div class="desc jenny char">
+                        ジェニー<br>
+                        <div class="buff">
+                            攻撃速度 0.09 → <b>0.11</b>
+                        </div><br>
+                    </div>
+                    <div class="desc fiora char">
+                        フィオラ<br>
+                        <div class="buff">
+                            攻撃力 38 → <b>40</b>
+                        </div><br>
+                        ・ファント(Q)<br>
+                        <div class="buff">
+                            内側ダメージ量 30/60/90/120/150(+攻撃力の30%)(+スキル増幅の25%) → 30/60/90/120/150<b>(+攻撃力の35%)(+スキル増幅の35%)</b>
+                        </div>
+                        <div class="buff">
+                            端のダメージ量 40/80/120/160/200(+攻撃力の40%)(+スキル増幅の60%) → 40/80/120/160/200<b>(+攻撃力の45%)(+スキル増幅の70%)</b>
+                        </div><br>
+                    </div>
+                    <div class="desc hyunwoo char">
+                        ヒョヌ<br>
+                        <div class="buff">
+                            グローブ  武器熟練度レベル比例基本攻撃増幅 3.1% → <b>3.5%</b>
+                        </div><br><br>
+                    </div>
+                    <div class="desc">
+                        <h3>アイテム調整</h3>
+                        <h2>武器</h2>
+                    </div>
+                    <div class="desc twohandedsword weapon">
+                        両手剣<br>
+                        ・レーヴァテイン<br>
+                        <div class="nerf">
+                            攻撃力 62 → <b>59</b>
+                        </div><br>
+                    </div>
+                    <div class="desc crossbow weapon">
+                        石弓<br>
+                        ・シャランガ<br>
+                        <div class="nerf">
+                            攻撃力 98→<b>92</b>
+                        </div><br>
+                    </div>
+                    <div class="desc shuriken weapon">
+                        暗器<br>
+                        ・スダルサナ<br>
+                        <div class="nerf">
+                            攻撃力 80→<b>74</b>
+                        </div><br><br>
+                    </div>
+                    <div class="desc">
+                        <h3>バグ修正</h3>
+                    </div>
+                    <div class="desc bianca">
+                        ビアンカ 鮮血の投槍(Q)使用中、特定の行動をすると停止する問題の修正
+                    </div>
+                    <div class="desc martina">
+                        マルティナ コバルトプロトコルで早戻し(E)スキルの持続時間が終了した後にビデオテープの位置に移動しない問題の修正
+                    </div>
+                    <div class="desc">
+                        芭蕉扇 治癒減少数値に関する問題の修正<br>
+                        対戦記録で偶数の順位のみ表記される問題の修正<br>
+                        ゲーム接続すると出力されるERパスの案内ポップアップに表記が誤っていた問題の修正<br>
+                        コバルト・プロトコルでエレガンスタグ修正<br>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+ 
+</html>
