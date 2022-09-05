@@ -76,6 +76,6 @@ $(function () {
         })
         showlist(list);
     })
-    
+    $("#patchlist").load("list.html");
 });
 

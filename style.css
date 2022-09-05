@@ -58,3 +58,10 @@ body{
     text-align: left;
     padding: 5%;
 }
+.sidebar_fixed {
+    position: sticky;
+    top: 60px;
+}
+  .sidebar_content {
+    margin-bottom: 100px;
+}
