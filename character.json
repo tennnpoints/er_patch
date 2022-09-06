@@ -1,51 +1,83 @@
 {
-    "jackie":{
-        "name":"ジャッキー",
-        "tags":["jackie","axe","dagger","dualswords","twohandedsword"]
-    },
-    "aya":{
-        "name":"アヤ",
-        "tags":["aya","pistol","ar","sr"]
-    },
-    "hyunwoo":{
-        "name":"ヒョヌ",
-        "tags":["hyunwoo","glove","tonfa"]
-    },
-    "magnus":{
-        "name":"マグヌス",
-        "tags":["magnus","bat","hammer"]
-    },
-    "fiora":{
-        "name":"フィオラ",
-        "tags":["fiora","twohandedsword","rapier","spear"]
-    },
-    "nadine":{
-        "name":"ナディン",
-        "tags":["nadine","bow","crossbow"]
-    },
-    "zahir":{
-        "name":"ザヒル",
-        "tags":["zahir","shuriken","throw"]
-    },
-    "hart":{
-        "name":"ハート",
-        "tags":["hart","guitar"]
+    "eleven":{
+        "name":"Eleven",
+        "tags":["eleven","hammer"]
     },
     "isol":{
         "name":"アイソル",
         "tags":["isol","ar","pistol"]
     },
-    "lidailin":{
-        "name":"ダイリン",
-        "tags":["lidailin","glove","nunchaku"]
+    "adina":{
+        "name":"アディナ",
+        "tags":["adina","arcana"]
     },
-    "yuki":{
-        "name":"雪",
-        "tags":["yuki","twohandedsword","dualswords"]
+    "adela":{
+        "name":"アデラ",
+        "tags":["adela","rapier"]
     },
-    "hyejin":{
-        "name":"ヘジン",
-        "tags":["hyejin","bow","shuriken"]
+    "adriana":{
+        "name":"アドリアナ",
+        "tags":["adriana","throw"]
+    },
+    "aya":{
+        "name":"アヤ",
+        "tags":["aya","pistol","ar","sr"]
+    },
+    "alex":{
+        "name":"アレックス",
+        "tags":["alex","tonfa","twohandedsword","shuriken","pistol"]
+    },
+    "william":{
+        "name":"ウィリアム",
+        "tags":["william","throw"]
+    },
+    "aiden":{
+        "name":"エイデン",
+        "tags":["aiden","twohandedsword"]
+    },
+    "echion":{
+        "name":"エキオン",
+        "tags":["echion","vf"]
+    },
+    "estelle":{
+        "name":"エステル",
+        "tags":["estelle","axe"]
+    },
+    "emma":{
+        "name":"エマ",
+        "tags":["emma","shuriken"]
+    },
+    "elena":{
+        "name":"エレナ",
+        "tags":["elena","rapier"]
+    },
+    "eva":{
+        "name":"エヴァ",
+        "tags":["eva","throw"]
+    },
+    "camilo":{
+        "name":"カミロ",
+        "tags":["camilo","dualswords"]
+    },
+    "karla":{
+        "name":"カーラ",
+        "tags":["karla","crossbow"]
+    },
+    "chiara":{
+        "name":"キアラ",
+        "tags":["chiara","rapier"]
+    },
+    "cathy":{
+        "name":"キャッシー",
+        "tags":["cathy","dagger"]
+    },
+    "chloe":{
+        "name":"クロエ",
+        "tags":["chloe","shuriken"]
+    },
+    "zahir":{
+        "name":"ザヒル",
+        "tags":["zahir","shuriken","throw"]
     },
     "xiukai":{
         "name":"シウカイ",
@@ -55,45 +87,53 @@
         "name":"シセラ",
         "tags":["sissela","throw","shuriken"]
     },
-    "chiara":{
-        "name":"キアラ",
-        "tags":["chiara","rapier"]
-    },
-    "adriana":{
-        "name":"アドリアナ",
-        "tags":["adriana","throw"]
-    },
     "silvia":{
         "name":"シルヴィア",
         "tags":["silvia","pistol"]
     },
-    "shoichi":{
-        "name":"彰一",
-        "tags":["shoichi","dagger"]
+    "jenny":{
+        "name":"ジェニー",
+        "tags":["jenny","pistol"]
     },
-    "emma":{
-        "name":"エマ",
-        "tags":["emma","shuriken"]
+    "jackie":{
+        "name":"ジャッキー",
+        "tags":["jackie","axe","dagger","dualswords","twohandedsword"]
     },
-    "lenox":{
-        "name":"レノックス",
-        "tags":["lenox","whip"]
+    "sua":{
+        "name":"スア",
+        "tags":["sua","hammer"]
     },
-    "rozzi":{
-        "name":"ロッジ",
-        "tags":["rozzi","pistol"]
+    "celine":{
+        "name":"セリーヌ",
+        "tags":["celine","throw"]
     },
-    "luke":{
-        "name":"ルク",
-        "tags":["luke","bat"]
+    "lidailin":{
+        "name":"ダイリン",
+        "tags":["lidailin","glove","nunchaku"]
     },
-    "cathy":{
-        "name":"キャッシー",
-        "tags":["cathy","dagger"]
+    "daniel":{
+        "name":"ダニエル",
+        "tags":["daniel","dagger"]
     },
-    "adela":{
-        "name":"アデラ",
-        "tags":["adela","rapier"]
+    "tia":{
+        "name":"ティア",
+        "tags":["tia","bat"]
+    },
+    "nathapon":{
+        "name":"ナタポン",
+        "tags":["nathapon","camera"]
+    },
+    "nadine":{
+        "name":"ナディン",
+        "tags":["nadine","bow","crossbow"]
+    },
+    "nicky":{
+        "name":"ニッキー",
+        "tags":["nicky","glove"]
+    },
+    "hart":{
+        "name":"ハート",
+        "tags":["hart","guitar"]
     },
     "bernice":{
         "name":"バニス",
@@ -103,129 +143,89 @@
         "name":"バーバラ",
         "tags":["barbara","bat"]
     },
-    "alex":{
-        "name":"アレックス",
-        "tags":["alex","tonfa","twohandedsword","shuriken","pistol"]
-    },
-    "sua":{
-        "name":"スア",
-        "tags":["sua","hammer"]
-    },
-    "leon":{
-        "name":"レオン",
-        "tags":["leon","glove"]
-    },
-    "eleven":{
-        "name":"Eleven",
-        "tags":["eleven","hammer"]
-    },
-    "rio":{
-        "name":"莉央",
-        "tags":["rio","bow"]
-    },
-    "william":{
-        "name":"ウィリアム",
-        "tags":["william","throw"]
-    },
-    "nicky":{
-        "name":"ニッキー",
-        "tags":["nicky","glove"]
-    },
-    "nathapon":{
-        "name":"ナタポン",
-        "tags":["nathapon","camera"]
-    },
-    "jan":{
-        "name":"ヤン",
-        "tags":["jan","glove","tonfa"]
-    },
-    "eva":{
-        "name":"エヴァ",
-        "tags":["eva","throw"]
-    },
-    "daniel":{
-        "name":"ダニエル",
-        "tags":["daniel","dagger"]
-    },
-    "jenny":{
-        "name":"ジェニー",
-        "tags":["jenny","pistol"]
-    },
-    "camilo":{
-        "name":"カミロ",
-        "tags":["camilo","dualswords"]
-    },
-    "chloe":{
-        "name":"クロエ",
-        "tags":["chloe","shuriken"]
-    },
-    "johann":{
-        "name":"ヨハン",
-        "tags":["johann","arcana"]
+    "hyunwoo":{
+        "name":"ヒョヌ",
+        "tags":["hyunwoo","glove","tonfa"]
     },
     "bianca":{
         "name":"ビアンカ",
         "tags":["bianca","arcana"]
     },
-    "celine":{
-        "name":"セリーヌ",
-        "tags":["celine","throw"]
+    "piolo":{
+        "name":"ピオロ",
+        "tags":["piolo","nunchaku"]
     },
-    "echion":{
-        "name":"エキオン",
-        "tags":["echion","vf"]
-    },
-    "mai":{
-        "name":"マイ",
-        "tags":["mai","whip"]
-    },
-    "aiden":{
-        "name":"エイデン",
-        "tags":["aiden","twohandedsword"]
-    },
-    "laura":{
-        "name":"ラウラ",
-        "tags":["laura","whip"]
-    },
-    "tia":{
-        "name":"ティア",
-        "tags":["tia","bat"]
+    "fiora":{
+        "name":"フィオラ",
+        "tags":["fiora","twohandedsword","rapier","spear"]
     },
     "felix":{
         "name":"フェリックス",
         "tags":["felix","spear"]
     },
-    "elena":{
-        "name":"エレナ",
-        "tags":["elena","rapier"]
-    },
     "priya":{
         "name":"プリヤ",
         "tags":["priya","guitar"]
     },
-    "adina":{
-        "name":"アディナ",
-        "tags":["adina","arcana"]
+    "hyejin":{
+        "name":"ヘジン",
+        "tags":["hyejin","bow","shuriken"]
+    },
+    "mai":{
+        "name":"マイ",
+        "tags":["mai","whip"]
+    },
+    "magnus":{
+        "name":"マグヌス",
+        "tags":["magnus","bat","hammer"]
+    },
+    "martina":{
+        "name":"マルティナ",
+        "tags":["martina","camera"]
     },
     "markus":{
         "name":"マーカス",
         "tags":["markus","axe"]
     },
-    "karla":{
-        "name":"カーラ",
-        "tags":["karla","crossbow"]
+    "jan":{
+        "name":"ヤン",
+        "tags":["jan","glove","tonfa"]
     },
-    "estelle":{
-        "name":"エステル",
-        "tags":["estelle","axe"]
+    "johann":{
+        "name":"ヨハン",
+        "tags":["johann","arcana"]
     },
-    "piolo":{
-        "name":"ピオロ",
-        "tags":["piolo","nunchaku"]
+    "laura":{
+        "name":"ラウラ",
+        "tags":["laura","whip"]
     },
-    "martina":{
-        "name":"マルティナ",
-        "tags":["martina","camera"]
+    "luke":{
+        "name":"ルク",
+        "tags":["luke","bat"]
+    },
+    "leon":{
+        "name":"レオン",
+        "tags":["leon","glove"]
+    },
+    "lenox":{
+        "name":"レノックス",
+        "tags":["lenox","whip"]
+    },
+    "rozzi":{
+        "name":"ロッジ",
+        "tags":["rozzi","pistol"]
+    },
+    "shoichi":{
+        "name":"彰一",
+        "tags":["shoichi","dagger"]
+    },
+    "rio":{
+        "name":"莉央",
+        "tags":["rio","bow"]
+    },
+    "yuki":{
+        "name":"雪",
+        "tags":["yuki","twohandedsword","dualswords"]
     }
     
     
