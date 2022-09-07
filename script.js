@@ -4,6 +4,7 @@ $(function () {
     let charlist = [];
     let weaponlist = ['ar','arcana','axe','bat','bow','camera','crossbow','dagger','dualswords','glove','guitar','hammer','nunchaku','pistol','rapier','shuriken','spear','sr','throw','tonfa','twohandedsword','vf','whip'];
     let augmentslist = ['adrenaline','ampdrone','bitterretribution','diamondshard','frailty','frenzy','healdrone','healingfactor','heavykneepads','ironclad','oblivion','redsprite','runitback','sentinel','vamp']
+    let e;
     $.ajax({
         // 読み込みの設定
         type: "GET",
@@ -12,6 +13,14 @@ $(function () {
         async: false // 非同期通信フラグ
     }).then(
         function (json) {
+            
+            $('.desc').each(function(index,element){
+                e = $.trim($(element).text());
+                if (e == ''){
+                    $(element).hide();
+                }
+            })
+
             // 読み込み成功時の処理
             console.log("読み込みに成功しました");
             console.log(json);
@@ -32,6 +41,10 @@ $(function () {
                 console.log('<style>.'+name+'::before{background-image: url(./weapon/'+name+'.png);}</style>')
                 $('.'+name+'').append('<style>.'+name+'::before{background-image: url(./augments/'+name+'.png);}</style>');  
             })
+            // ----
+
+            
+
             
         },
         function () {
@@ -76,6 +89,9 @@ $(function () {
         })
         showlist(list);
     })
+
+
+
     $("#patchlist").load("list.html");
 });
 
